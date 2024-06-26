@@ -1,0 +1,35 @@
+:root{
+    --primery-text-color:#757575;
+    --primery-backround-color:#fff;
+    --title-text-color: #212121;
+    --primary-white-color: #fff;
+    --secondary-background-color: #F5F4FA;
+    --primary-black-color: #000000;
+    --accent-color: #2196F3;
+}
+
+body{
+    color: var(--primery-text-color);
+    background-color: var(--primery-backround-color);
+    font-family: "Roboto", sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    color: var(--primary-black-color);
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.color-logo{
+    color: var(--accent-color);
+
+}
