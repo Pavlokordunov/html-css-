@@ -79,7 +79,7 @@ a{
     letter-spacing: 0.1em;
     cursor: pointer;
     border: none;
-    border-radius: 4%;
+    border-radius: 5%;
 }
 
 .about-list-item-discription{
@@ -154,4 +154,34 @@ a{
     line-height: calc(24/14);
     color: var(--primary-white-color);
     opacity: 60%;
+}
+
+.options-list-button{
+    background-color: var(--secondary-background-color);
+    border: none;
+    border-radius: 5%;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16;
+    line-height: calc(24/16);
+    color: var(--title-text-color);
+}
+.options-list-button:hover{
+    background-color: var(--accent-color);
+}
+
+.portfolio-list-discription{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 18;
+    line-height: calc(36/18);
+    color: var(--title-text-color);
+}
+
+.portfolio-list-text{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16;
+    line-height: calc(30/16);
+    color: var(--primery-text-color);
 }
