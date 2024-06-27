@@ -31,5 +31,127 @@ a{
 
 .color-logo{
     color: var(--accent-color);
+}
 
+.header-list-item-link{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--title-text-color);
+}
+
+.header-list-item-link:hover, .header-list-item-link:active{
+    color: var(--accent-color);
+}
+
+.header-mail, .header-tel{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--primery-text-color);
+}
+
+.hero{
+    background-color: #2F303A;
+}
+
+.header-mail:hover, .header-mail:active, .header-tel:hover, .header-tel:active{
+    color: var(--accent-color);
+}
+
+.hero-title{
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60/44);
+    color: var(--primary-white-color);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.hero-button{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 16;
+    line-height: calc(30/16);
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 4%;
+}
+
+.about-list-item-discription{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--title-text-color);
+}
+
+.about-list-item-text{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--primery-text-color);
+}
+
+.work-title{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--title-text-color);
+}
+
+.team-title{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--title-text-color);
+}
+
+.team-list-name{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--title-text-color);
+}
+
+.team-list-job{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--primery-text-color);
+}
+
+.footer{
+    background-color: #2F303A;
+}
+
+.logo-footer{
+    color: var(--primary-white-color);
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.color-logo-footer{
+    color: var(--accent-color);
+}
+
+.footer-address{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(16/14);
+    color: var(--primary-white-color);
+}
+
+.footer-mail, .footer-tel{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    color: var(--primary-white-color);
+    opacity: 60%;
 }
