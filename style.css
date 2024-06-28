@@ -8,6 +8,24 @@
     --accent-color: #2196F3;
 }
 
+.conteiner{
+    width: 100%;
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+h1,h2,h3,h4,p,ul{
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 body{
     color: var(--primery-text-color);
     background-color: var(--primery-backround-color);
@@ -55,6 +73,14 @@ a{
     background-color: #2F303A;
 }
 
+.hero-conteiner{
+    padding: 200px 0 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .header-mail:hover, .header-mail:active, .header-tel:hover, .header-tel:active{
     color: var(--accent-color);
 }
@@ -67,7 +93,13 @@ a{
     color: var(--primary-white-color);
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    width: 696px;
+    height: 120px;
+    text-align: center;
+    margin-bottom: 30px;
+
 }
+
 
 .hero-button{
     font-family: "Roboto";
@@ -79,7 +111,18 @@ a{
     letter-spacing: 0.1em;
     cursor: pointer;
     border: none;
-    border-radius: 5%;
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+}
+
+.hero-button:active{
+    width: 216px;
+    background-color: #188CE8;
+}
+
+.about-conteiner{
+    padding: 94px 0 94px;
 }
 
 .about-list-item-discription{
@@ -87,6 +130,7 @@ a{
     font-weight: 700;
     font-size: 14px;
     color: var(--title-text-color);
+    margin-bottom: 10px;
 }
 
 .about-list-item-text{
@@ -94,6 +138,11 @@ a{
     font-weight: 400;
     font-size: 14px;
     color: var(--primery-text-color);
+    width: 270px;
+}
+
+.work-conteiner{
+    padding-bottom: 94px;
 }
 
 .work-title{
@@ -101,6 +150,11 @@ a{
     font-weight: 700;
     font-size: 36px;
     color: var(--title-text-color);
+    margin-bottom: 50px;
+}
+
+.team-conteiner{
+    padding: 94px 0 94px;
 }
 
 .team-title{
@@ -108,6 +162,7 @@ a{
     font-weight: 700;
     font-size: 36px;
     color: var(--title-text-color);
+    margin-bottom: 50px;
 }
 
 .team-list-name{
@@ -128,11 +183,16 @@ a{
     background-color: #2F303A;
 }
 
+.footer-conteiner{
+    padding: 60px 0 60px;
+}
+
 .logo-footer{
     color: var(--primary-white-color);
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
+    margin-bottom: 28px;
 }
 
 .color-logo-footer{
