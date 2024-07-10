@@ -6,6 +6,8 @@
     --secondary-background-color: #F5F4FA;
     --primary-black-color: #000000;
     --accent-color: #2196F3;
+    --indent: 30px;
+    --items: 4;
 }
 
 .conteiner{
@@ -40,11 +42,40 @@ a{
     text-decoration: none;
 }
 
+.card-set{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--indent);
+}
+
+.card-set-item{
+    flex-basis: calc((100% - var(--indent) * (var(--items)-1)) / (var(--items)));
+}
+
+.header-conteiner{
+    display: flex;
+    padding: 24px 0 25px;
+    align-items: center;
+    justify-content: center;
+}
+
 .logo{
     color: var(--primary-black-color);
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
+    margin-right: 93px;
+
+}
+
+.header-list{
+    display: flex;
+    gap: 50px;
+}
+
+.header-nav{
+
+    margin-right: auto;
 }
 
 .color-logo{
@@ -60,6 +91,12 @@ a{
 
 .header-list-item-link:hover, .header-list-item-link:active{
     color: var(--accent-color);
+}
+
+.header-contacts{
+    display: flex;
+    gap: 50px;
+    align-items: center;
 }
 
 .header-mail, .header-tel{
@@ -125,12 +162,24 @@ a{
     padding: 94px 0 94px;
 }
 
+.about-list{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-list-item{
+    width: 270px;
+}
+
 .about-list-item-discription{
     font-family: "Roboto";
     font-weight: 700;
     font-size: 14px;
     color: var(--title-text-color);
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .about-list-item-text{
@@ -143,6 +192,17 @@ a{
 
 .work-conteiner{
     padding-bottom: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.work-title-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 .work-title{
@@ -155,6 +215,11 @@ a{
 
 .team-conteiner{
     padding: 94px 0 94px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--secondary-background-color);
 }
 
 .team-title{
@@ -165,11 +230,21 @@ a{
     margin-bottom: 50px;
 }
 
+.team-list-item{
+    text-align: center;
+}
+
+.team-info{
+    padding: 30px 0 30px;
+    background-color: var(--primary-white-color);
+}
+
 .team-list-name{
     font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
     color: var(--title-text-color);
+    margin-bottom: 10px;
 }
 
 .team-list-job{
@@ -185,6 +260,8 @@ a{
 
 .footer-conteiner{
     padding: 60px 0 60px;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo-footer{
@@ -199,12 +276,18 @@ a{
     color: var(--accent-color);
 }
 
+.footer-address-nav{
+    display: flex;
+    flex-direction: column;
+}
+
 .footer-address{
     font-family: "Roboto";
     font-weight: 400;
     font-size: 14px;
     line-height: calc(16/14);
     color: var(--primary-white-color);
+    margin-bottom: 9px;
 }
 
 .footer-mail, .footer-tel{
@@ -216,6 +299,26 @@ a{
     opacity: 60%;
 }
 
+.footer-mail{
+    margin-bottom: 9px;
+}
+
+.portfolio-conteiner{
+    padding: 94px 0 94px;
+}
+
+.options-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.portfolio-info{
+    padding: 20px 24px;
+    border: 1px solid #eee;
+    border-top: none;
+}
 .options-list-button{
     background-color: var(--secondary-background-color);
     border: none;
@@ -225,9 +328,12 @@ a{
     font-size: 16;
     line-height: calc(24/16);
     color: var(--title-text-color);
+    padding: 6px 22px;
+    margin-bottom: 50px;
 }
 .options-list-button:hover{
     background-color: var(--accent-color);
+    padding: 6px 25px;
 }
 
 .portfolio-list-discription{
