@@ -104,10 +104,26 @@ a{
     font-weight: 500;
     font-size: 14px;
     color: var(--primery-text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-icon{
+    fill: currentColor;
 }
 
 .hero{
     background-color: #2F303A;
+    background-image: linear-gradient(
+        rgba(47 ,48 ,58 ,0.4),
+        rgba(47 ,48 ,58 ,0.4)
+    ),
+    url(./img/backround/hero-backround.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero-conteiner{
@@ -232,6 +248,8 @@ a{
 
 .team-list-item{
     text-align: center;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .team-info{
@@ -252,6 +270,38 @@ a{
     font-weight: 400;
     font-size: 16px;
     color: var(--primery-text-color);
+    margin-bottom: 16px;
+}
+
+.social-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--primary-white-color);
+}
+
+.social-icon{
+    fill: #AFB1B8;
+}
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon
+{
+    fill: var(--primary-white-color);
+}
+
+.social-link:hover{
+    background-color: var(--accent-color);
 }
 
 .footer{
@@ -261,7 +311,18 @@ a{
 .footer-conteiner{
     padding: 60px 0 60px;
     display: flex;
+}
+
+.address-info{
+    display: flex;
     flex-direction: column;
+    margin-right: 70px;
+}
+
+.footer-social{
+    display: flex;
+    flex-direction: column;
+
 }
 
 .logo-footer{
@@ -303,6 +364,33 @@ a{
     margin-bottom: 9px;
 }
 
+.footer-social-text{
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--primary-white-color);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+.footer-social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+.footer-social-icon{
+    fill: var(--primary-white-color);
+}
+
+.footer-social-link:hover{
+    background-color: var(--accent-color);
+}
+
 .portfolio-conteiner{
     padding: 94px 0 94px;
 }
@@ -334,6 +422,7 @@ a{
 .options-list-button:hover{
     background-color: var(--accent-color);
     padding: 6px 25px;
+    color: var(--primary-white-color);
 }
 
 .portfolio-list-discription{
