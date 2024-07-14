@@ -40,7 +40,7 @@
         <section class="hero">
             <div class="conteiner hero-conteiner">
                 <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-                <button type="button" class="hero-button">Замовити послугу</button>
+                <button type="button" class="hero-button" data-modal-open>Замовити послугу</button>
             </div>
         </section>
         <section>
@@ -52,6 +52,7 @@
                     </div>
                         <p class="about-list-item-discription">Увага до деталей</p>
                         <p class="about-list-item-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+
                     </li>
                     <li>
                         <div class="about-img-conteiner">
@@ -81,9 +82,21 @@
             <div class="conteiner work-conteiner">
                 <h2 class="work-title">Чим ми займаємося</h2>
                 <ul class ="work-title-list">
-                    <li class="work-title-item"><img src="./img/box img/box 1.jpg" alt="Програмування" width="370" height="294"></li>
-                    <li class="work-title-item"><img src="./img/box img/box 2.jpg" alt="Аналіз" width="370" height="294"></li>
-                    <li class="work-title-item"><img src="./img/box img/box 3.jpg" alt="Дизайн" width="370" height="294"></li>
+                    <li class="work-title-item"><img src="./img/box img/box 1.jpg" alt="Програмування" width="370" height="294">
+                        <div class="work-overlay">
+                            <p class="work-overlay-text">Десктопні додатки</p>
+                        </div>
+                    </li>
+                    <li class="work-title-item"><img src="./img/box img/box 2.jpg" alt="Аналіз" width="370" height="294">
+                        <div class="work-overlay">
+                            <p class="work-overlay-text">Мобільні додатки</p>
+                        </div>
+                    </li>
+                    <li class="work-title-item"><img src="./img/box img/box 3.jpg" alt="Дизайн" width="370" height="294">
+                        <div class="work-overlay">
+                            <p class="work-overlay-text">Дизайнерські рішення</p>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -332,5 +345,15 @@
         </div>
         </div>
     </footer>
+
+    <div class="backdrop" data-modal>
+        <div class="modal">
+            <button class="modal-btn" data-modal-close>
+                <img class="modal-img" src="./img/portfolio img/close.png" alt="">
+            </button>
+        </div>
+    </div>
+
+    <script src="./modal.js"></script>
 </body>
 </html>
