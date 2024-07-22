@@ -1,0 +1,43 @@
+.clients-conteiner{
+    padding: 94px 0 94px;
+}
+
+.clients-text{
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--title-text-color);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.clients-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.clients-link{
+    width: 170px;
+    height: 92px;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    background-color: var(--primery-backround-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-icon{
+    fill: #AFB1B8;
+}
+
+.clients-link:hover{
+    border-color: var(--accent-color);
+}
+
+.clients-link:hover .client-icon,
+.clients-link:focus .client-icon
+{
+    fill: var(--accent-color);
+}

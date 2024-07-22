@@ -1,0 +1,25 @@
+//UTILS styles
+@import './utils/variables';
+@import './utils/card-set';
+
+// BASE styles
+@import './base/base';
+@import './base/reset';
+
+//COMPONENT styles
+@import './components/conteiner';
+@import './components/logo';
+@import './components/header';
+@import './components/hero';
+@import './components/about';
+@import './components/work';
+@import './components/team';
+@import './components/socials';
+@import './components/clieants';
+@import './components/footer-address';
+@import './components/footer-socials';
+@import './components/footer-form';
+@import './components/portfolio';
+@import './components/overlay';
+@import './components/backdrop';
+@import './components/modal';

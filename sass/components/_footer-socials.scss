@@ -1,0 +1,30 @@
+.footer-social{
+    margin-right: 93px;
+}
+
+.footer-social-text{
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--primary-white-color);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+.footer-social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+.footer-social-icon{
+    fill: var(--primary-white-color);
+}
+
+.footer-social-link:hover{
+    background-color: var(--accent-color);
+}

@@ -1,0 +1,34 @@
+.overlay-thumb{
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(33, 150, 243, 0.9);
+    padding: 63px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transform: translateY(100%);
+    transition: transform var(--anim-fast);
+    user-select: none;
+}
+
+.overlay-text{
+    color: var(--primary-white-color);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(28/18);
+}
+
+.portfolio-list-item:hover .overlay{
+    transform: translateY(0);
+}

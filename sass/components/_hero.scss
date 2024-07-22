@@ -1,0 +1,59 @@
+.hero{
+    background-color: #2F303A;
+    background-image: linear-gradient(
+        rgba(47 ,48 ,58 ,0.4),
+        rgba(47 ,48 ,58 ,0.4)
+    ),
+    url(../img/backround/hero-backround.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-conteiner{
+    padding: 200px 0 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-mail:hover, .header-mail:active, .header-tel:hover, .header-tel:active{
+    color: var(--accent-color);
+}
+
+.hero-title{
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60/44);
+    color: var(--primary-white-color);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    width: 696px;
+    height: 120px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+
+.hero-button{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 16;
+    line-height: calc(30/16);
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+}
+
+.hero-button:active{
+    width: 216px;
+    background-color: #188CE8;
+}

@@ -1,0 +1,49 @@
+.portfolio-conteiner{
+    padding: 94px 0 94px;
+}
+
+.options-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.portfolio-info{
+    padding: 20px 24px;
+    border: 1px solid #eee;
+    border-top: none;
+}
+.options-list-button{
+    background-color: var(--secondary-background-color);
+    border: none;
+    border-radius: 5%;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16;
+    line-height: calc(24/16);
+    color: var(--title-text-color);
+    padding: 6px 22px;
+    margin-bottom: 50px;
+}
+.options-list-button:hover{
+    background-color: var(--accent-color);
+    padding: 6px 25px;
+    color: var(--primary-white-color);
+}
+
+.portfolio-list-discription{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 18;
+    line-height: calc(36/18);
+    color: var(--title-text-color);
+}
+
+.portfolio-list-text{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16;
+    line-height: calc(30/16);
+    color: var(--primery-text-color);
+}

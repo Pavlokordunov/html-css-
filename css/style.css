@@ -1,4 +1,4 @@
-:root{
+/* :root{
     --primery-text-color:#757575;
     --primery-backround-color:#fff;
     --title-text-color: #212121;
@@ -11,41 +11,45 @@
 
 
     --anim-fast: 300ms ease-out;
-}
+} */
 
-.conteiner{
+/* .html{
+    scroll-behavior: smooth;
+} */
+
+/* .conteiner{
     width: 100%;
     max-width:1200px;
     margin: 0 auto;
     padding: 0 16px;
-}
+} */
 
-h1,h2,h3,h4,p,ul{
+/* h1,h2,h3,h4,p,ul{
     padding: 0;
     margin: 0;
-}
+} */
 
-img {
+/* img {
     display: block;
     max-width: 100%;
     height: auto;
-}
+} */
 
-body{
+/* body{
     color: var(--primery-text-color);
     background-color: var(--primery-backround-color);
     font-family: "Roboto", sans-serif;
-}
+} */
 
-ul{
+/* ul{
     list-style: none;
 }
 
 a{
     text-decoration: none;
-}
+} */
 
-.card-set{
+/* .card-set{
     display: flex;
     flex-wrap: wrap;
     gap: var(--indent);
@@ -53,24 +57,23 @@ a{
 
 .card-set-item{
     flex-basis: calc((100% - var(--indent) * (var(--items)-1)) / (var(--items)));
-}
+} */
 
-.header-conteiner{
+/* .header-conteiner{
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
-.logo{
+/* .logo{
     color: var(--primary-black-color);
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
     margin-right: 93px;
+} */
 
-}
-
-.header-list{
+/* .header-list{
     display: flex;
     gap: 50px;
 }
@@ -145,15 +148,15 @@ a{
 
 .contact-icon{
     fill: currentColor;
-}
+} */
 
-.hero{
+/* .hero{
     background-color: #2F303A;
     background-image: linear-gradient(
         rgba(47 ,48 ,58 ,0.4),
         rgba(47 ,48 ,58 ,0.4)
     ),
-    url(./img/backround/hero-backround.jpg);
+    url(../img/backround/hero-backround.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -205,9 +208,9 @@ a{
 .hero-button:active{
     width: 216px;
     background-color: #188CE8;
-}
+} */
 
-.about-conteiner{
+/* .about-conteiner{
     padding: 94px 0 94px;
 }
 
@@ -247,9 +250,9 @@ a{
     font-size: 14px;
     color: var(--primery-text-color);
     width: 270px;
-}
+} */
 
-.work-conteiner{
+/* .work-conteiner{
     padding-bottom: 94px;
     display: flex;
     justify-content: center;
@@ -299,9 +302,9 @@ a{
     justify-content: center;
     flex-direction: column;
     background-color: var(--secondary-background-color);
-}
+} */
 
-.team-title{
+/* .team-title{
     font-family: "Roboto";
     font-weight: 700;
     font-size: 36px;
@@ -334,9 +337,9 @@ a{
     font-size: 16px;
     color: var(--primery-text-color);
     margin-bottom: 16px;
-}
+} */
 
-.social-list{
+/* .social-list{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -367,9 +370,9 @@ a{
 
 .social-link:hover{
     background-color: var(--accent-color);
-}
+} */
 
-.clients-conteiner{
+/* .clients-conteiner{
     padding: 94px 0 94px;
 }
 
@@ -411,9 +414,9 @@ a{
 .clients-link:focus .client-icon
 {
     fill: var(--accent-color);
-}
+} */
 
-.footer{
+/* .footer{
     background-color: #2F303A;
 }
 
@@ -471,9 +474,9 @@ a{
 
 .footer-mail{
     margin-bottom: 9px;
-}
+} */
 
-.footer-social{
+/* .footer-social{
     margin-right: 93px;
 }
 
@@ -502,9 +505,9 @@ a{
 
 .footer-social-link:hover{
     background-color: var(--accent-color);
-}
+} */
 
-.footer-form{
+/* .footer-form{
     display: flex;
     flex-direction: row;
     gap: 12px;
@@ -550,11 +553,11 @@ a{
     background-color: #188CE8;
 }
 
-.footer-ofrm-icon{
+.footer-form-icon{
     fill: var(--primary-white-color);
-}
+} */
 
-.portfolio-conteiner{
+/* .portfolio-conteiner{
     padding: 94px 0 94px;
 }
 
@@ -602,9 +605,9 @@ a{
     font-size: 16;
     line-height: calc(30/16);
     color: var(--primery-text-color);
-}
+} */
 
-.overlay-thumb{
+/* .overlay-thumb{
     position: relative;
     overflow: hidden;
 }
@@ -633,13 +636,13 @@ a{
     font-weight: 400;
     font-size: 18px;
     line-height: calc(28/18);
-}
+} */
 
-.portfolio-list-item:hover .overlay{
+/* .portfolio-list-item:hover .overlay{
     transform: translateY(0);
-}
+} */
 
-.backdrop.is-hidden {
+/* .backdrop.is-hidden {
 	opacity: 0;
 	visibility: hidden;
 	pointer-events: none;
@@ -657,11 +660,11 @@ a{
 	transition-property: opacity, visibility;
 	transition-duration: var(--primary-animation-time);
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 
 
-.modal {
+/* .modal {
     padding: 40px;
 	position: absolute;
 	top: 50%;
@@ -824,4 +827,4 @@ a{
     align-items: center;
     display: block;
     margin: 0 auto;
-}
+} */
